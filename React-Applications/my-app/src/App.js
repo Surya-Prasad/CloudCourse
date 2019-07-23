@@ -24,7 +24,7 @@ class App extends React.Component{
       name: this.state.name
     };
     console.log(user.name);
-    axios.post(`http://localhost:8080/`,user)
+    axios.post(`http://localhost:3001/`,user)
       .then(res => {
         if(res.data){
           alert('Data sent');
