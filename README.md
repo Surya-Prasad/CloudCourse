@@ -2,7 +2,10 @@
 Storing all my cloud course related works
 
 Dependencies:
-npm install axios --save inside react
+
+inside react:
+  npm install
+  npm install axios --save 
 
 inside express:
   npm install --save express
